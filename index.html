@@ -440,16 +440,17 @@
         .skill-tags span {
             font-size: 0.85rem;
             padding: 0.5rem 1rem;
-            background: var(--bg-card);
+            background: var(--accent-subtle);  /* Change from var(--bg-card) */
             border: 1px solid var(--border);
             border-radius: 6px;
-            color: var(--text-secondary);
+            color: var(--text-primary);  /* Change from var(--text-secondary) */
             transition: all 0.3s ease;
         }
 
         .skill-tags span:hover {
             border-color: var(--accent);
             color: var(--accent);
+            background: var(--accent-subtle);
         }
 
         /* Contact Section */
@@ -685,6 +686,34 @@
                 <div class="project-card fade-in">
                     <div class="project-content">
                         <p class="project-number">01</p>
+                        <h3 class="project-title">Agentic Pipeline Repair</h3>
+                        <p class="project-description">
+                            An autonomous multi-agent system for data pipeline monitoring and repair using 
+                            Amazon Nova 2 Lite. Features four specialized agents (Monitor, Diagnostics, Repair, 
+                            Orchestrator) with real dbt model integration, FastAPI backend, React dashboard, 
+                            and full AWS deployment with EC2 and RDS PostgreSQL.
+                        </p>
+                        <div class="project-tech">
+                            <span>Amazon Nova 2</span>
+                            <span>LangGraph</span>
+                            <span>AI Agents</span>
+                            <span>dbt</span>
+                            <span>React</span>
+                            <span>FastAPI</span>
+                            <span>EC2</span>
+                            <span>RDS</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/sanidhya-karnik/agentic-pipeline-repair" target="_blank" class="project-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-content">
+                        <p class="project-number">02</p>
                         <h3 class="project-title">MCP Operations Infrastructure</h3>
                         <p class="project-description">
                             A production-ready Model Context Protocol server for secure LLM interactions. 
@@ -710,7 +739,7 @@
 
                 <div class="project-card fade-in">
                     <div class="project-content">
-                        <p class="project-number">02</p>
+                        <p class="project-number">03</p>
                         <h3 class="project-title">EHR MLOps Pipeline</h3>
                         <p class="project-description">
                             End-to-end MLOps platform for predicting 30-day hospital readmissions using MIMIC-IV clinical data. 
@@ -738,7 +767,7 @@
 
                 <div class="project-card fade-in">
                     <div class="project-content">
-                        <p class="project-number">03</p>
+                        <p class="project-number">04</p>
                         <h3 class="project-title">Intelligent Learning Advisor</h3>
                         <p class="project-description">
                             An LLM-powered course recommendation system using Agentic RAG architecture. 
@@ -754,30 +783,6 @@
                         </div>
                     </div>
                     <a href="https://github.com/vignankamarthi/agent-coordination-framework" target="_blank" class="project-link">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </svg>
-                    </a>
-                </div>
-
-                <div class="project-card fade-in">
-                    <div class="project-content">
-                        <p class="project-number">04</p>
-                        <h3 class="project-title">UAV Search & Rescue Routing</h3>
-                        <p class="project-description">
-                            Reinforcement learning framework for optimizing drone fleet routing in search 
-                            and rescue operations. Implements Q-Learning and DQN algorithms with a two-phase 
-                            decomposition approach to solve the NP-hard team orienteering problem.
-                        </p>
-                        <div class="project-tech">
-                            <span>PyTorch</span>
-                            <span>Q-Learning</span>
-                            <span>DQN</span>
-                            <span>Streamlit</span>
-                            <span>RL</span>
-                        </div>
-                    </div>
-                    <a href="https://github.com/sanidhya-karnik/uav-search-rescue-rl" target="_blank" class="project-link">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
